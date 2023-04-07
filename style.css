@@ -118,10 +118,10 @@ button a{
     margin:18px;
 }
 
-@media  screen and (max-width: 700px) {
+@media  screen and (max-width: 500px) {
     .skills{column-count: 1;}
      nav{
-        width:500px;
+        width:100px;
     }
     
 }
