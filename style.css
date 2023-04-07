@@ -1,0 +1,124 @@
+body{
+    color:aliceblue;
+    background-color: black;
+}
+h1{
+    background-image: linear-gradient(45deg,rgb(158, 10, 237) 5% ,rgb(23, 165, 221) 9% , #01ad1d 15%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.banner{
+    width:100%;
+    height:50%;
+    opacity:0.9;
+    z-index: -1;
+    border-radius: 15px;
+}
+nav{
+    display: inline-flex;
+    width:100%;
+    margin:0px;
+    z-index:1;
+    background-color: black;
+
+}
+
+nav a{
+    background-image: linear-gradient(45deg,rgb(166, 0, 255) 30% ,rgb(17, 167, 227) 57% , #01ad1d 100%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    display: block;
+    padding:10px;
+    margin:10px;
+    font-size: large;
+}
+
+nav a:hover{
+    text-shadow: 0px 0px 22px rgb(191, 147, 249);
+    box-shadow: 0px 0px 3px rgb(246, 247, 247) ;
+    border-radius: 8px;
+}
+.card{
+    border: solid 1px;
+    border-radius: 8px;
+    background-image:linear-gradient(90deg,#06b540,#117bd2,#5b1185);
+    padding: 10px;
+    left:40%;
+    margin: 10px;
+    display: block;
+}
+.card_head{
+    color:black;
+    margin-top: 0;
+}
+.card-base{
+    background-image:linear-gradient(90deg,#99f597,#9fb1f3,#e1b6f8);
+    color:black;
+    margin-top: 0;
+    padding: 10px;
+    border:none;
+    border-radius: 0px 0px 5px 5px;
+}
+.skills{
+    column-count:2;
+    column-rule-width: 5px;
+    align-items: center;
+
+}
+.skills li{
+    display:block;
+    border-radius: 5px;
+    border: none;
+    padding:5px;
+    background-color: rgb(0, 132, 132);
+    width: 300px;
+    background-image:linear-gradient(90deg,purple, rgb(4, 118, 149),#1bd211);    
+    text-align: center;
+    margin:18px;
+}
+
+footer{
+    padding:20px;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    color:aqua;
+    left:0;
+    bottom:0;
+
+}
+
+footer button{
+    background-image:linear-gradient(120deg,rgb(234, 8, 129),rgb(178, 23, 221), #4a0870) ;
+    border:solid 1px;
+    border-color: black;
+    padding:15px;
+    border-radius: 8px;
+    height: 50px;
+    width:100px;
+}
+footer button:hover{
+    background-image:linear-gradient(60deg,rgb(12, 180, 51),rgb(19, 201, 168), #4601ad) ;
+}
+button a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.per button{
+    background-image:linear-gradient(120deg,purple, rgb(4, 118, 149),#1bd211);    
+    text-align: center;
+    color:white;
+    padding:10px;
+    border-radius: 15px;
+    border:none;
+    margin:18px;
+}
+
+@media  screen and (max-width: 700px) {
+    .skills{column-count: 1;}
+    
+}
